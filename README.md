@@ -28,4 +28,4 @@ And, run docker file.
 docker run --rm -it --env-file .env -p 8501:8501 about_turtles
 ```
 
-Or you can simply run the application with `streamlit run main.py`
+Or you install dependencies with `poetry install` and simply run the application with `poetry run streamlit run main.py`
